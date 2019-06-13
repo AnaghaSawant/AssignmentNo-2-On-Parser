@@ -19,4 +19,4 @@ class ParseFiles
 end
 
 obj1 = ParseFiles.new
-obj1.working(open("/home/ketan/parser/ParseJava.txt").read)
+obj1.working(open("ParseJava.txt").read)
